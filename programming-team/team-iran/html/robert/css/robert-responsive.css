@@ -1,0 +1,286 @@
+/* Normal desktop :992px. LG Device */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.mainmenu ul li {
+    margin: 18px -1px;
+}
+.mainmenu{
+	text-align:center !important;
+}
+
+.resume-bottom .con-about:first-child::after {
+    right: 4px;
+    bottom: 55px;
+}
+
+.single-service-features .services-content p {
+	font-size:14px;
+}
+.blog-area .grid-content {
+    padding: 30px 30px 38px 30px;
+}
+.grid-content h2 {
+    font-size: 20px;
+}
+.grid-content span {
+    font-size: 14px;
+}
+.bp-padd {
+    padding-right: 12px;
+}
+.grid-content span a {
+    font-size: 14px;
+}
+.grid-content p {
+    font-size: 14px;
+	line-height: 22px;
+}
+.grid-content .section-dash-warp .btn>span {
+    font-size: 14px;
+}
+.detail-share p {
+    font-size: 15px;
+}
+.detail-share {
+	padding: 35px 15px;
+    text-align: center;
+}
+.banner_inner h1 {
+    font-size: 40px;
+}
+.map-warp iframe {
+    width: 448px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* small mobile layout :320px. */
+@media only screen and (max-width: 767px) {
+
+.slicknav_menu{
+	display:block;
+}	
+.mainmenu{
+	display:none;
+}
+div.slicknav_menu {
+    margin-top: -60px;
+    background: transparent;
+}
+.slicknav_btn {
+    margin: 6px 25px 16px 8px;
+	border-radius:0px;
+}
+.bbr-mb.menu-background {
+    top: 0px;
+}
+.slicknav_nav {
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+	padding: 15px;
+    text-align: center;
+}
+.slicknav-bg-6 div.slicknav_menu {
+    margin-top: 12px;
+    background: transparent;
+}
+.logo-middle-6 {
+    right: auto !important;
+}
+
+.myphoto img {
+    display: none;
+}
+
+.banner-wrapper h1 {
+    font-size: 40px;
+}
+.banner-wrapper h3 {
+    font-size: 1.5rem;
+}
+.section-dash h2 {
+    font-size: 22px;
+}
+.section-dash p {
+    font-size: 15px;
+}
+.section-dash-warp .btn>span {
+    font-size: 14px;
+}
+.protfolio-wrapper .icons {
+    top: 45%;
+}
+.protfolio-wrapper h2 {
+    margin: 10px 0px 18px 0px;
+    top: 55%;
+}
+.res-bottom{
+	margin-bottom:40px;
+}
+.ask-middle-2{
+	margin-top:35px;
+}
+.comment-respond{
+    margin: 0 9px;
+}
+.grid-content .section-dash-warp .btn>span {
+    font-size: 15px;
+}
+.detail-share {
+    width: 100%;
+    text-align: center !important;
+}
+.mll-bottom{
+	margin-bottom:15px;
+}
+.bottom-menu.small-menu {
+    bottom:-5px;
+}
+.banner-wrapper .mp-button a {
+    width: 138px;
+    font-size: 12px;
+}
+.banner-wrapper p {
+    width: 100%;
+}
+
+
+
+
+.res-top-margin{
+	margin-top:80px;	
+}
+.blog-wrapper-image img {
+    width: 100%;
+}
+.res-top-margin-2{
+	margin-top:30px;	
+}
+.map-warp iframe {
+    width: 460px;
+}
+.copyright-1 {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+}
+
+/* Large Mobile layout:550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+.slicknav_menu{
+	display:block;
+}		
+.mainmenu{
+	display:none;
+}
+div.slicknav_menu {
+    margin-top: -60px;
+    background: transparent;
+}
+.slicknav_btn {
+    margin: 6px 90px 16px 8px;
+}
+.bbr-mb.menu-background {
+    top: 0px;
+}
+.slicknav_nav {
+    background: #616161;
+    padding: 15px;
+    text-align: center;	
+}
+.logo-middle-6 {
+    right: auto !important;
+}
+.myphoto img {
+    display: none;
+}
+
+
+.ask-middle-2 {
+    margin-top: 0px;
+}
+.banner-wrapper h1 {
+    font-size: 40px;
+}
+.banner-wrapper h3 {
+    font-size: 1.6rem;
+}
+.banner-wrapper .mp-button a {
+    width: 138px;
+    font-size: 12px;
+}
+.about-image {
+    width: 70%;
+	margin-left:70px;
+}
+.section-about figcaption {
+    width: 72%;
+    height: 100%;
+	margin-left:70px;
+}
+.section-dash h2 {
+    font-size: 25px;
+}
+.section-dash p {
+    font-size: 15px;
+}
+.section-dash-warp .btn>span {
+    padding: .7em 2em;
+}
+.protfolio-menu button {
+    margin-right: 0px;
+    padding: 8px 12px;
+}
+.protfolio-wrapper .icons {
+    top: 45%;
+}
+.protfolio-wrapper h2 {
+    margin: 10px 0px 18px 0px;
+    top: 55%;
+}
+.res-bottom{
+	margin-bottom:40px;
+}
+
+.banner-wrapper p {
+    width: 100%;
+}	
+
+
+.res-top-margin{
+	margin-top:80px;	
+}
+.blog-wrapper-image img {
+    width: 100%;
+}
+.res-top-margin-2{
+	margin-top:30px;	
+}
+.map-warp iframe {
+    width: 512px;
+}
+
+
+
+}
+

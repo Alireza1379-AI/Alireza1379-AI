@@ -1,0 +1,224 @@
+/* BEGIN Bold */
+@font-face {
+    font-family: 'IranianSansBold';
+    src: url('fonts/IranianSansBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* END Bold */
+/* BEGIN Regular */
+@font-face {
+    font-family: 'IranianSans';
+    src: url('fonts/IranianSansRegular.ttf') format('truetype'),
+    url('fonts/IRANSans-web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* END Regular */
+
+.small-menu {
+    top: 15px !important;
+}
+
+.rounded-box {
+    border-radius: 25px;
+    background: linear-gradient(145deg, #01aaf8, #1942db) !important;
+}
+
+.background-banner {
+    background: linear-gradient(44deg, #11efec, blue, #11ebe1ad) !important;
+}
+
+.hero-block .animation-circle-inverse.right > span {
+rgb(76 40 200 / 61 %);
+}
+
+.animation-circle-inverse > span {
+    background: linear-gradient(145deg, #0139f8, #ee076e) !important;
+}
+
+.myphoto {
+    top: unset !important;
+    left: unset !important;
+    height: 351px !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 366px;
+    background: rgba(255, 255, 255, 0.3) url("../img/bussy.png") no-repeat;
+
+}
+
+
+.bbr-mb {
+    border-bottom: unset !important;
+}
+
+.bg-black .banner-wrapper p {
+    color: white;
+}
+
+.font-irani {
+    font-family: 'IranianSans' !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 10px mintcream !important;
+}
+
+.home-all-button a:after {
+    border: unset !important;
+}
+
+.home-all-button a {
+    background: rgba( 255, 255, 255, 42% ) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+    backdrop-filter: blur( 4.5px ) !important;
+    -webkit-backdrop-filter: blur( 4.5px ) !important;
+    border: unset !important;
+}
+
+.banner-wrapper h1 {
+    font-size: 47px !important;
+}
+
+#pp-nav li .active span, .pp-slidesNav .active span {
+    background: white !important;
+    border: unset !important;
+}
+
+.bg-black {
+    background: linear-gradient(
+            44deg, #11efec, blue, #11ebe1ad) !important;
+}
+
+.resume-bottom .con-about::before {
+    background: rgba( 255, 255, 255, 0.3 ) !important;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+.resume-bottom .con-about::after {
+    background: rgba( 255, 255, 255, 0.3 ) !important;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+.about-img {
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 1px gray);
+}
+
+.bg-black .about-text p {
+    color: whitesmoke;
+}
+
+.button-shadow {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+/*new accordion*/
+.tabs {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: rgba( 255, 255, 255, 0.3 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 28px;
+    font-family: Poppins, serif;
+    /* Icon */
+}
+.tab-label:hover {
+    background: rgba(116, 126, 134, 0.74);
+}
+.tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+}
+.tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #2c3e50;
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 10px;
+    transition: all 0.35s;
+}
+.tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: #2c3e50;
+    cursor: pointer;
+}
+.tab-close:hover {
+    background: #1a252f;
+}
+input:checked + .tab-label {
+    background: #1a252f;
+}
+input:checked + .tab-label::after {
+    transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+.resume-page .heading {
+    color: whitesmoke !important;
+}
+/*new accordion*/
+
+/*responsive only*/
+@media (width: 375px),(height: 812px) {
+    .hero-block .animation-circle-inverse {
+        position: relative !important;
+    }
+
+    .myphoto {
+        width: 330px;
+        height: 330px;
+        margin-left: 3px;
+        margin-top: 50px;
+    }
+    .slicknav_btn {
+        background-color: unset;
+    }
+    .small-menu {
+        left: 5px;
+        right: 5px;
+    }
+    .slicknav_nav {
+        margin : 8px !important;
+        border-radius: 17px !important;
+    }
+    .heading {
+        font-size: 30px;
+        text-align: center !important;
+    }
+}
+
+/*responsive only*/
