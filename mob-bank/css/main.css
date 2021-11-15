@@ -1,0 +1,60 @@
+/*MAIN STYLING*/
+.font-iran {
+    font-family: system-ui, serif;
+}
+
+.mouse-top {
+    top: 76px !important;
+}
+
+h1 {
+    font-family: system-ui, serif;
+}
+
+span {
+    font-family: system-ui, serif;
+}
+
+.theme-form-btn {
+    background: unset !important;
+    border-left: unset !important;
+}
+
+.theme-form-btn .btn {
+    border-radius: 37px 37px !important;
+}
+
+.theme-form input {
+    border-radius: 35px 35px;
+}
+
+div {
+    font-family: system-ui, serif;
+}
+
+#fullpage {
+    font-family: system-ui, serif;
+}
+
+
+
+/*MAIN STYLING*/
+
+/*MAIN STYLING MEDIA*/
+@media (width: 375px),(height: 812px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-evenly;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    .navbar-brand {
+        margin-left: 4rem;
+    }
+    .font-iran {
+        font-size: 13px;
+    }
+}
+/*MAIN STYLING MEDIA*/
