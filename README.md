@@ -1,5 +1,5 @@
 -HI 
-Iam Alirea biavaz 
+Iam Alireza biavaz 
 Front-end & Mobile app developer
 Javascript & Typescript fighter
 mackup a dope code with css & css framework
